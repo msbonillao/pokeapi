@@ -4,9 +4,9 @@ from unipath import Path
 import django_heroku
 
 
-django_heroku.settings(locals())
 
 PROJECT_ROOT = Path(__file__).ancestor(2)
+BASE_DIR = PROJECT_ROOT
 
 DEBUG = False
 
@@ -125,3 +125,6 @@ REST_FRAMEWORK = {
     "PAGE_SIZE": 20,
     "PAGINATE_BY": 20,
 }
+
+django_heroku.settings(locals())
+
