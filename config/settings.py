@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     "ms-pokedex.herokuapp.com",
     "localhost",
     "127.0.0.1",
+    "0.0.0.0"
 ]
 
 TIME_ZONE = os.environ.get("TIME_ZONE", "Europe/London")
