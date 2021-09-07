@@ -26,6 +26,7 @@ BASE_URL = os.environ.get("BASE_URL", "http://pokeapi.co")
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = [
     os.environ.get("ALLOWED_HOSTS", ".pokeapi.co"),
+    "ms-pokedex.herokuapp.com",
     "localhost",
     "127.0.0.1",
 ]
