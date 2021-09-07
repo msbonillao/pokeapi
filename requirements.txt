@@ -16,3 +16,4 @@ python-dateutil==2.8.1
 python-mimeparse==1.6.0
 simplejson==3.17.2
 six==1.15.0
+django_heroku==0.3.1 

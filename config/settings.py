@@ -1,6 +1,10 @@
 # Production settings
 import os
 from unipath import Path
+import django_heroku
+
+
+django_heroku.settings(locals())
 
 PROJECT_ROOT = Path(__file__).ancestor(2)
 
